@@ -4,7 +4,7 @@
 import sys
 import string
 
-txtblk='\x1b[0;30m' # Black - Regular
+txtblk='\x1b[0;32m' # Black - Regular --Green
 txtred='\x1b[0;31m' # Red
 txtgrn='\x1b[0;32m' # Green
 txtylw='\x1b[0;33m' # Yellow
@@ -12,15 +12,14 @@ txtblu='\x1b[0;34m' # Blue
 txtpur='\x1b[0;35m' # Purple
 txtcyn='\x1b[0;36m' # Cyan
 txtwht='\x1b[0;37m' # White
-bldblk='\x1b[1;30m' # Black - Bold
-bldred='\x1b[1;31m' # Red
+bldblk='\x1b[0;37m' # Black - Bold -- White
 bldgrn='\x1b[1;32m' # Green
 bldylw='\x1b[1;33m' # Yellow
 bldblu='\x1b[1;34m' # Blue
 bldpur='\x1b[1;35m' # Purple
 bldcyn='\x1b[1;36m' # Cyan
 bldwht='\x1b[1;37m' # White
-undblk='\x1b[4;30m' # Black - Underline
+undblk='\x1b[0;32m' # Black - Underline -->Green
 undred='\x1b[4;31m' # Red
 undgrn='\x1b[4;32m' # Green
 undylw='\x1b[4;33m' # Yellow
