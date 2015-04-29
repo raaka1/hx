@@ -126,3 +126,4 @@ if __name__ == '__main__':
         hexdump(args.file, verbose = not args.quiet)
     except (IOError, KeyboardInterrupt):
         pass
+#end
